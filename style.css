@@ -1,0 +1,57 @@
+h1{
+    color:black
+      }
+
+      h2{
+         color: black;
+      }
+
+      *{
+      background-color:seashell;
+      background-image: url("print.png");
+        }
+      .header{
+          background-color:seashell;
+      }
+
+      .menu{
+          background-color:darkseagreen;
+          font-style: oblique;
+          font-size:medium;
+          color:#000
+      }
+
+      .grid{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content:space-evenly;
+          background-color: honeydew;
+      }
+
+      a:link{
+          color:aqua;
+      }
+
+      a:visited{
+          color:blue;
+      }
+
+      .item{
+          position:relative;
+      }
+
+      .item p{
+          position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        opacity:0
+      }
+    
+      .item:hover p{
+          opacity:1
+      }
+
+      .item:hover img{
+opacity:0.2
+      }
